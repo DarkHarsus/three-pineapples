@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/V0_1_0__create-role-enum.yaml
+  - include:
+      file: db/changelog/changes/V0_1_1__create_user_table.yaml

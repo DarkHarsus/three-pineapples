@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 000
+      author: darkharsus
+      changes:
+        - sql:
+            dbms: postgresql
+            sql: CREATE TYPE role_enum AS ENUM ('USER', 'ADMIN', 'EMPLOYEE');
